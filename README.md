@@ -1,6 +1,6 @@
 # TailMeApp - Sports Picks Subscription Platform
 
-TailMeApp is a platform where sports handicappers (creators) can publish their picks, and users can subscribe to see those picks. The application integrates with The Odds API to provide up-to-date odds for various sports events.
+TailMeApp is a platform where sports handicappers (creators) can publish their picks, and users can subscribe to see those picks. The application integrates with The Odds API to provide up-to-date odds for NFL, NBA, MLB, CFB ( could add more in future ).
 
 I wanted to build this app because I thought it would be a good way for people to find and follow sports handicappers. Also, I wanted there to be some transparency where a creator can't delete picks after the result to prop up winning percentage.
 
