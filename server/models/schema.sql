@@ -1,0 +1,11 @@
+CREATE TABLE picks (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  creator_id INTEGER NOT NULL,
+  sport TEXT NOT NULL,
+  pick TEXT NOT NULL,
+  odds TEXT NOT NULL,
+  result TEXT,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  game_time DATETIME NOT NULL,
+  FOREIGN KEY (creator_id) REFERENCES users (id)
+); 
